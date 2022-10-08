@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <title>Pinterest</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="botonesNavegacionIzq">
+          <div class="smallButton">
+            <a href="https://www.pinterest.com.mx/" target="_blank">
+              <svg
+                class="icon"
+                height="24"
+                width="24"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                role="img"
+              >
+                <path
+                  d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"
+                ></path>
+              </svg>
+            </a>
+          </div>
+          <div>
+            <button class="navButton active"><b>Inicio</b></button>
+          </div>
+          <div>
+            <button class="navButton class">Hoy</button>
+          </div>
+          <div class="navButton class">Crear</div>
+        </div>
+        <div class="inputBuscar">
+          <form>
+            <input type="text" name="buscar" placeholder="Buscar" />
+          </form>
+        </div>
+        <div class="botonesNavegacionDerecha">
+          <div class="smallButton colorSmallButton">
+            <svg
+              height="24"
+              width="24"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              role="img"
+              title="Notificaciones"
+            >
+              <path
+                d="M12 24c-1.66 0-3-1.34-3-3h6c0 1.66-1.34 3-3 3zm7-10.83c1.58 1.52 2.67 3.55 3 5.83H2c.33-2.28 1.42-4.31 3-5.83V7c0-3.87 3.13-7 7-7s7 3.13 7 7v6.17z"
+              ></path>
+            </svg>
+          </div>
+          <div class="smallButton colorSmallButton">
+            <svg
+              height="24"
+              width="24"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              role="img"
+              title="Mensajes"
+            >
+              <path
+                d="M18 12.5a1.5 1.5 0 1 1 .001-3.001A1.5 1.5 0 0 1 18 12.5m-6 0a1.5 1.5 0 1 1 .001-3.001A1.5 1.5 0 0 1 12 12.5m-6 0a1.5 1.5 0 1 1 .001-3.001A1.5 1.5 0 0 1 6 12.5M12 0C5.925 0 1 4.925 1 11c0 2.653.94 5.086 2.504 6.986L2 24l5.336-3.049A10.93 10.93 0 0 0 12 22c6.075 0 11-4.925 11-11S18.075 0 12 0"
+              ></path>
+            </svg>
+          </div>
+          <div class="smallButton">
+            <img
+              title="Tu perfil"
+              width="24"
+              class="profilePicture"
+              height="24"
+              alt="Ariel Freskiee"
+              importance="auto"
+              loading="auto"
+              src="https://i.pinimg.com/75x75_RS/d5/f6/e6/d5f6e6c1ea11d1ce0806004665000145.jpg"
+            />
+          </div>
+          <div class="smallButton colorSmallButton" id="mini">
+            <svg
+              title="Cuentas y más opciones"
+              height="10"
+              width="10"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              role="img"
+            >
+              <path
+                d="M12 19.5.66 8.29c-.88-.86-.88-2.27 0-3.14.88-.87 2.3-.87 3.18 0L12 13.21l8.16-8.06c.88-.87 2.3-.87 3.18 0 .88.87.88 2.28 0 3.14L12 19.5z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <img
+          src="https://i.pinimg.com/474x/f1/d4/59/f1d459c44c971b4d8d9190b34152e011.jpg"
+          alt="img1"
+        />
+        <img
+          src="https://i.pinimg.com/474x/41/7e/ec/417eecd1895bb8201658c41fb5b10fe8.jpg"
+          alt="img2"
+        />
+        <img
+          src="https://i.pinimg.com/474x/97/92/72/979272f32892b736bf67c5783b1c1deb.jpg"
+          alt="img3"
+        />
+        <img
+          src="https://i.pinimg.com/474x/20/7c/3a/207c3a4c3872235fc871ed0b8ed681a1.jpg"
+          alt="img4"
+        />
+        <img
+          src="https://i.pinimg.com/474x/95/42/f0/9542f0ee6582b784de47b6294c5e7bfc.jpg"
+          alt="img5"
+        />
+        <img
+          src="https://scontent.faca1-1.fna.fbcdn.net/v/t1.6435-9/66619085_2452688598116557_5012378021575786496_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=AQ7jBQM9Z-YAX_roI1R&_nc_ht=scontent.faca1-1.fna&oh=00_AT_nVnDXULRZLmhCGI5c-JZW6Cf8_Ngr4zW7ZG8zq77owA&oe=63662617"
+          alt="img6"
+        />
+        <img
+          src="https://i.pinimg.com/474x/c2/08/dd/c208dd3b3318c5eef9ac92aff7f05bbc.jpg"
+          alt="img7"
+        />
+        <img
+          src="https://i.pinimg.com/474x/0e/58/75/0e58758f09049a258dc8bf438edc57f0.jpg"
+          alt="img8"
+        />
+        <img
+          src="https://i.pinimg.com/474x/63/45/ef/6345ef3fe5beb996edb613524b0f2705.jpg"
+          alt="img9"
+        />
+        <img
+          src="https://i.pinimg.com/474x/ff/88/3c/ff883c2051d9af8c58f1d3fe99116c14.jpg"
+          alt="img10"
+        />
+        <img
+          src="https://i.pinimg.com/474x/6c/85/cc/6c85ccdc8980bb0ae7a660401a54f528.jpg"
+          alt="img11"
+        />
+        <img
+          src="https://i.pinimg.com/474x/54/97/b9/5497b99fb6d733e5ec46a6e6a18eb2cd.jpg"
+          alt="img12"
+        />
+        <img
+          src="https://i.pinimg.com/474x/3b/5f/8d/3b5f8d071351e23e7eac682f40cc6a89.jpg"
+          alt="img13"
+        />
+        <img
+          src="https://i.pinimg.com/474x/31/30/a2/3130a2df8760f0e60f959d12ed752937.jpg"
+          alt="img13"
+        />
+        <img
+          src="https://i.pinimg.com/474x/68/67/07/686707e620c438b4fcc0bc5b0bf6b595.jpg"
+          alt="img14"
+        />
+        <img
+          src="https://i.pinimg.com/474x/ac/f7/29/acf729633dd0975fd6536fa806e97766.jpg"
+          alt="img15"
+        />
+        <img
+          src="https://i.pinimg.com/474x/ee/ed/9c/eeed9c9fefe54a540341aff6d475d467.jpg"
+          alt="img16"
+        />
+        <img
+          src="https://i.pinimg.com/474x/06/9d/d0/069dd01fd44c9abe84c43f436a3c355c.jpg"
+          alt="img17"
+        />
+        <img
+          src="https://i.pinimg.com/474x/2f/09/4e/2f094ee4bf0c8e0c329157c339c73477.jpg"
+          alt="img18"
+        />
+        <img
+          src="https://i.pinimg.com/474x/76/65/f8/7665f80433ce53d6e5329310b45d4263.jpg"
+          alt="img19"
+        />
+        <img
+          src="https://scontent.faca1-1.fna.fbcdn.net/v/t39.30808-6/290795432_5438630476189006_2082774775970134658_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=dJXR8U3Gkn8AX9VtU6V&tn=QG1uQ468mPf43-gE&_nc_ht=scontent.faca1-1.fna&oh=00_AT_GJOVONIfUADC7e4T5Y1r8Q4WrSytME60q4oawYWedEA&oe=6346C61E"
+          alt="img20"
+        />
+        <img
+          src="https://scontent.faca1-1.fna.fbcdn.net/v/t1.18169-9/13567419_1732926173635612_5998758267822376131_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=wzqsdLl3VsMAX-XwKVr&_nc_ht=scontent.faca1-1.fna&oh=00_AT8wP3aM-vZICKfQg76CdXBHAwY1BUo9AawT67vGVdFs3w&oe=6366BECD"
+          alt="img21"
+        />
+        <img
+          src="https://i.pinimg.com/474x/43/21/7e/43217ee4ff1200621e49551fe21cde31.jpg"
+          alt="img22"
+        />
+        <img
+          src="https://scontent.faca1-1.fna.fbcdn.net/v/t1.6435-9/68572433_2402751709986385_959312878643445760_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=DkD7n01zPNAAX9VTsrK&_nc_ht=scontent.faca1-1.fna&oh=00_AT9cr5lpVDClbWAyVQERPNaKyTnjLwagJSgVhXFv8jaQRA&oe=6366A12F"
+          alt="img23"
+        />
+        <img
+          src="https://scontent.faca1-1.fna.fbcdn.net/v/t1.6435-9/172612617_2909910139270537_2648707619498903620_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=BGSkXAeGFLEAX829kgV&_nc_ht=scontent.faca1-1.fna&oh=00_AT9gBX8GtOes_cqAlEY-CrMsdBXlvZgalhIOW6Rs37xG2g&oe=6367DCC7"
+          alt="img24"
+        />
+        <img
+          src="https://i.pinimg.com/474x/bc/88/f8/bc88f86fc96405904aa206d64f6d5505.jpg"
+          alt="img25"
+        />
+        <img src="./img/limonails.png" alt="img26" />
+        <img
+          src="https://i.pinimg.com/564x/57/12/b9/5712b9e204411ee8568424cebc09a97c.jpg"
+          alt="img27"
+        />
+        <img
+          src="https://i.pinimg.com/474x/9c/a8/3c/9ca83c8c1f2cd8e9b7df4fe59b1d1d96.jpg"
+          alt="img28"
+        />
+        <img
+          src="https://i.pinimg.com/474x/f5/1e/eb/f51eeb8c505d15e258624a80cb4575c5.jpg"
+          alt="img29"
+        />
+        <img
+          src="https://i.pinimg.com/474x/ca/19/f5/ca19f5fc14d164fda9addee2eee67f21.jpg"
+          alt="img30"
+        />
+        <img
+          src="https://i.pinimg.com/474x/8c/45/c8/8c45c81649cd540fd107a523e806d234.jpg"
+          alt="img31"
+        />
+        <img
+          src="https://i.pinimg.com/474x/cb/5b/f7/cb5bf702ae98a9f13c2d1f2c26f702e8.jpg"
+          alt="img32"
+        />
+        <img
+          src="https://i.pinimg.com/474x/d0/38/2e/d0382ed7f09266250bdc763b20ec636b.jpg"
+          alt="img33"
+        />
+      </div>
+      <button class="inside guardar">Guardar</button>
+      <button class="inside down"></button>
+    </main>
+  </body>
+</html>
